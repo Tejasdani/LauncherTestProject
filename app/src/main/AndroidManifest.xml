@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.jiolaunchertest">
+
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JioLauncherTest"
+        tools:replace="android:icon">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.iwedia.ui.rjio.launcher.reliance.LAUNCH_ACTION" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <receiver
+            android:name=".DesktopReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.jio.action.APP_SHORTCUT_DELETED" />
+                <action android:name="com.jio.action.FILE_SHORTCUT_DELETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

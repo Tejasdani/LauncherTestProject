@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LauncherTest</string>
+
+    <string name="search_apps">Search apps</string>
+    <string name="recently_used">Frequently Opened Apps</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="all_apps">All Apps</string>
+    <string name="closed_by_launcher">com.launchertest.APPDRAWER_CLOSED_BY_LAUNCHER</string>
+
+</resources>

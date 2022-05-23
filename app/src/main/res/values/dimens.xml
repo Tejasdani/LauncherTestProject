@@ -1,0 +1,44 @@
+<resources>
+
+
+    <dimen name="size_5">5px</dimen>
+    <dimen name="size_10">10px</dimen>
+    <dimen name="size_8">8px</dimen>
+    <dimen name="size_30">30px</dimen>
+    <dimen name="size_26">26px</dimen>
+    <dimen name="size_40">40px</dimen>
+    <dimen name="size_50">50px</dimen>
+    <dimen name="size_60">60px</dimen>
+    <dimen name="size_70">70px</dimen>
+    <dimen name="size_80">80px</dimen>
+    <dimen name="size_90">90px</dimen>
+    <dimen name="size_100">100px</dimen>
+    <dimen name="size_130">130px</dimen>
+
+    <dimen name="size_12">12px</dimen>
+    <dimen name="size_22">22px</dimen>
+    <dimen name="size_14">14px</dimen>
+    <dimen name="size_28">28px</dimen>
+    <dimen name="size_20">20px</dimen>
+    <dimen name="size_32">32px</dimen>
+    <dimen name="size_36">36px</dimen>
+    <dimen name="size_48">48px</dimen>
+    <dimen name="dimen_50">50px</dimen>
+    <dimen name="size_86">85px</dimen>
+
+    <dimen name="size_2">2px</dimen>
+    <dimen name="size_220">220px</dimen>
+    <dimen name="size_350">350px</dimen>
+    <dimen name="size_284">284px</dimen>
+    <dimen name="power_width">280px</dimen>
+    <dimen name="power_parent_width">360px</dimen>
+    <dimen name="size_280">280px</dimen>
+    <dimen name="size_187">187px</dimen>
+    <dimen name="size_448">448px</dimen>
+    <dimen name="size_432">432px</dimen>
+    <dimen name="padding_16">16px</dimen>
+    <dimen name="h_txt_width">257px</dimen>
+
+    <dimen name="header_item_size">28px</dimen>
+
+</resources>

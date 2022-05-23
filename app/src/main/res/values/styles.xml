@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="background">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+
+    <style name="AppMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@drawable/right_click_menu_selector</item>
+    </style>
+
+
+    <style name="PopUpMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:itemBackground">@drawable/right_click_menu_selector</item>
+        <item name="maxWidth">@dimen/h_txt_width</item>
+        <item name="android:layout_width">@dimen/h_txt_width</item>
+    </style>
+
+   <!-- <style name="ThemeOverlay.SearchView" parent="">
+        &lt;!&ndash; Text color &ndash;&gt;
+        <item name="android:editTextColor">@color/login_text_black_color</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="searchIcon">@null</item>
+        <item name="android:textSize">@dimen/dimen_12sp</item>
+        <item name="iconifiedByDefault">false</item>
+        &lt;!&ndash; Hint text color &ndash;&gt;
+        <item name="android:textColorHint">@color/vmax_dark_gray</item>
+    </style>-->
+</resources>
