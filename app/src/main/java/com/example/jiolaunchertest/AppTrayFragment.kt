@@ -81,8 +81,6 @@ class AppTrayFragment : Fragment(), AppListContractListener.View, AppTrayListLis
         mAppTrayPresenter.view = this
         mAppListPresenter.view = this
 
-        tvAllApps.visibility = View.VISIBLE
-
         mIsOpen = true
         broadCastReceiverMethod()
 
@@ -99,7 +97,6 @@ class AppTrayFragment : Fragment(), AppListContractListener.View, AppTrayListLis
 
         val recentAppsLayoutManager =
             GridLayoutManager(requireContext()!!, spanCount, LinearLayoutManager.HORIZONTAL, false)
-        recycler_view_recent_list!!.layoutManager = recentAppsLayoutManager
 
         setAppList()
 

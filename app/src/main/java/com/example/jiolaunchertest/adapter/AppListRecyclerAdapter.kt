@@ -140,8 +140,6 @@ class AppListRecyclerAdapter(
             override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
                 appList = results?.values as MutableList<AppListData>
                 notifyDataSetChanged()
-
-
             }
         }
     }
